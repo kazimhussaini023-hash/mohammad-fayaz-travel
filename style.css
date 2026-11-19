@@ -1,0 +1,196 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  direction: rtl;
+  background: #f4f8fc;
+  color: #183b56;
+  line-height: 1.8;
+}
+
+.top-header {
+  background: white;
+  padding: 15px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px #dce8f2;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-icon {
+  font-size: 32px;
+}
+
+.brand h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #12609a;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 12px;
+  color: #71869a;
+}
+
+.header-contact,
+.main-button {
+  background: #1479b8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 45px 8%;
+  background:
+    linear-gradient(90deg, #06375dbb, #06375d55),
+    url("https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1400") center/cover;
+  color: white;
+}
+
+.hero-content {
+  max-width: 550px;
+}
+
+.hero h1 {
+  font-size: 34px;
+  margin: 12px 0;
+}
+
+.hero p {
+  margin-bottom: 28px;
+}
+
+.hero-label {
+  background: #ffffff30;
+  padding: 7px 14px;
+  border-radius: 20px;
+}
+
+.visa-section,
+.services-section,
+.contact-section {
+  max-width: 1100px;
+  margin: 45px auto;
+  padding: 20px;
+}
+
+.visa-section h2,
+.services-section h2,
+.contact-section h2 {
+  text-align: center;
+  color: #12609a;
+}
+
+.section-description {
+  text-align: center;
+  color: #71869a;
+}
+
+#countryList,
+#visaList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 18px;
+  margin: 25px 0;
+}
+
+.country-card,
+.visa-card {
+  background: white;
+  border: 1px solid #dce8f2;
+  border-radius: 14px;
+  padding: 18px;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 15px #dce8f255;
+  transition: 0.2s;
+}
+
+.country-card:hover,
+.visa-card:hover {
+  background: #eaf5fc;
+  transform: translateY(-3px);
+}
+
+#visaDetails {
+  background: white;
+  padding: 24px;
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 0 4px 18px #dce8f2;
+}
+
+#visaDetails h3,
+#visaDetails h4 {
+  color: #12609a;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card,
+.contact-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 15px #dce8f2;
+}
+
+.service-card span {
+  font-size: 35px;
+}
+
+.contact-card {
+  margin: 15px 0;
+}
+
+.contact-card a {
+  display: inline-block;
+  background: #1479b8;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+footer {
+  background: #123e5e;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+
+@media (max-width: 600px) {
+  .top-header {
+    padding: 12px;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .hero {
+    min-height: 300px;
+  }
+}
