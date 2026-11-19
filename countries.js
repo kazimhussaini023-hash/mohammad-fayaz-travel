@@ -4,18 +4,18 @@ const countries = [
     id: "turkey",
     name: "ترکیه",
     flag: "🇹🇷",
+    image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800",
     visas: [
       {
         id: "medical",
         name: "ویزه مریضی ترکیه",
         icon: "🏥",
-        description: "برای متقاضیان تداوی و امور صحی در ترکیه",
+        description: "برای متقاضیان تداوی در ترکیه",
         documents: [],
         conditions: [],
         steps: [],
         fees: "بعداً تکمیل می‌شود",
-        processingTime: "بعداً تکمیل می‌شود",
-        updatedAt: "در انتظار تکمیل"
+        processingTime: "بعداً تکمیل می‌شود"
       },
       {
         id: "student",
@@ -26,8 +26,7 @@ const countries = [
         conditions: [],
         steps: [],
         fees: "بعداً تکمیل می‌شود",
-        processingTime: "بعداً تکمیل می‌شود",
-        updatedAt: "در انتظار تکمیل"
+        processingTime: "بعداً تکمیل می‌شود"
       },
       {
         id: "work",
@@ -38,8 +37,7 @@ const countries = [
         conditions: [],
         steps: [],
         fees: "بعداً تکمیل می‌شود",
-        processingTime: "بعداً تکمیل می‌شود",
-        updatedAt: "در انتظار تکمیل"
+        processingTime: "بعداً تکمیل می‌شود"
       }
     ]
   },
@@ -47,6 +45,7 @@ const countries = [
     id: "pakistan",
     name: "پاکستان",
     flag: "🇵🇰",
+    image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800",
     visas: [
       {
         id: "pakistan-visa",
@@ -57,8 +56,7 @@ const countries = [
         conditions: [],
         steps: [],
         fees: "بعداً تکمیل می‌شود",
-        processingTime: "بعداً تکمیل می‌شود",
-        updatedAt: "در انتظار تکمیل"
+        processingTime: "بعداً تکمیل می‌شود"
       }
     ]
   },
@@ -66,6 +64,7 @@ const countries = [
     id: "iran",
     name: "ایران",
     flag: "🇮🇷",
+    image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800",
     visas: [
       {
         id: "iran-visa",
@@ -76,10 +75,8 @@ const countries = [
         conditions: [],
         steps: [],
         fees: "بعداً تکمیل می‌شود",
-        processingTime: "بعداً تکمیل می‌شود",
-        updatedAt: "در انتظار تکمیل"
+        processingTime: "بعداً تکمیل می‌شود"
       }
     ]
   }
 ];
-
